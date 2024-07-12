@@ -1,0 +1,56 @@
+{
+  "asid": "",
+  "token": "",
+  "identity": {
+    "identityType": "MOBILE",
+    "identityValue": "919883158996",
+    "channel": "WHATSAPP",
+    "methods": ["WHATSAPP"],
+    "name": "Surjendu Pal",
+    "verified": true,
+    "verifiedAt": "2024-06-24T05:20:21Z"
+  },
+  "status": "SUCCESS",
+  "fingureprint": {
+    "network": {
+      "ip": "160.238.92.226",
+      "timezone": "Asia/Kolkata",
+      "ipLocation": {
+        "city": {
+          "name": "Kolkata"
+        },
+        "subdivisions": {
+          "code": "WB",
+          "name": "West Bengal"
+        },
+        "country": {
+          "code": "IN",
+          "name": "India"
+        },
+        "continent": {
+          "code": "AS"
+        },
+        "latitude": 22.518,
+        "longitude": 88.3832,
+        "postalCode": "700036"
+      }
+    },
+    "deviceInfo": {
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "platform": "Win32",
+      "vendor": "Google Inc.",
+      "browser": "Chrome",
+      "connection": "4g",
+      "language": "en-GB",
+      "cookieEnabled": true,
+      "screenWidth": 1536,
+      "screenHeight": 864,
+      "screenColorDepth": 24,
+      "devicePixelRatio": 1.25,
+      "timezoneOffset": -330,
+      "cpuArchitecture": "4-core",
+      "fontFamily": "\"Times New Roman\""
+    },
+    "userId": "MO-1d64841b94c349acab011b5b9cc4b1e7"
+  }
+}

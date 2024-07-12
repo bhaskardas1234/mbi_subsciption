@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.subscription-container {
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subscription-container>div:first-child {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+h2 {
+  color: red;
+  padding-left: 5px;
+}
+
+.card .image {
+  margin-bottom: 10px;
+}
+
+.card .description {
+  margin-bottom: 20px;
+}
+
+.card .lines {
+  margin-bottom: 10px;
+}
+
+.card .submit-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 30%;
+  height: auto;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@keyframes cardHover {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.left:hover,
+.middle:hover,
+.right:hover {
+  animation: cardHover 0.5s ease;
+  /* Use the animation defined above */
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.suscribe-button {
+  width: 70%;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px
+}
+
+.monthly-description {
+  padding-left: 25px;
+}
+
+.yearly-description {
+  padding-left: 25px;
+}
+
+.pay-as-read-description {
+  padding-left: 25px;
+}
+
+
+@media (max-width: 1024px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .card {
+    flex: 1 1 100%;
+    max-width: 90%;
+    margin: 10px 0;
+  }
+
+  .left,
+  .middle,
+  .right {
+    width: 100%;
+  }
+}

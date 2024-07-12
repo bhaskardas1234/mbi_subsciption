@@ -1,0 +1,315 @@
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    margin-top: 8%;
+    font-family: Roboto , Arial, Helvetica, sans-serif;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name select {
+    margin-top: 16px;
+    height: 75%;
+    width: 15%;
+    border-radius: 5px;
+    border: 2px solid #D0D0D0;
+}
+
+.name input {
+    padding-left: 8px;
+    height: 65%;
+    width: 80%;
+    border-radius: 5px;
+    border: 2px solid #D0D0D0;
+}
+
+.number input {
+    padding-left: 8px;
+    height: 65%;
+    width: 96%;
+    border-radius: 5px;
+    border: 2px solid #D0D0D0;
+}
+
+.dob input {
+    padding-left: 8px;
+    height: 65%;
+    width: 96%;
+    border-radius: 5px;
+    border: 2px solid #D0D0D0;
+}
+
+.addEmail input {
+    padding-left: 8px;
+    height: 65%;
+    width: 96%;
+    border-radius: 5px;
+    border: 2px solid #D0D0D0;
+}
+
+.inputBoxes {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.proceedButton button{
+    background-color: #00698F;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.registering {
+    width: 100%;
+}
+
+.registering p {
+    margin-bottom: -5%;
+    text-align: center;
+}
+
+.tellUs {
+    width: 100%;
+}
+
+.tellUs p {
+    margin-bottom: -10%;
+    text-align: center;
+}
+
+.alert {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.alert-inner {
+    transform: translateX(-50%);
+    padding:16px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 768px) {
+
+    .registration-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 60vh;
+        background-color: #fff;
+        margin-top: 20%;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .name select {
+        height: 75%;
+        width: 24%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .name input {
+        padding-left: 8px;
+        height: 65%;
+        width: 80%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .number input {
+        padding-left: 8px;
+        height: 65%;
+        width: 96%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .dob input {
+        padding-left: 8px;
+        height: 65%;
+        width: 96%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .addEmail input {
+        padding-left: 8px;
+        height: 65%;
+        width: 96%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .inputBoxes {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    
+    .proceedButton button{
+        background-color: #00698F;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+    
+    .registering {
+        width: 100%;
+    }
+    
+    .registering p {
+        margin-bottom: -5%;
+        text-align: center;
+    }
+    
+    .tellUs {
+        width: 100%;
+    }
+    
+    .tellUs p {
+        margin-bottom: -10%;
+        text-align: center;
+    }
+}
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 912px) {
+
+    .registration-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 60vh;
+        background-color: #fff;
+        margin-top: 20%;
+    }
+    
+    .name {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .name select {
+        height: 75%;
+        width: 24%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .name input {
+        padding-left: 8px;
+        height: 65%;
+        width: 80%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .number input {
+        padding-left: 8px;
+        height: 65%;
+        width: 96%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .dob input {
+        padding-left: 8px;
+        height: 65%;
+        width: 96%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .addEmail input {
+        padding-left: 8px;
+        height: 65%;
+        width: 96%;
+        border-radius: 5px;
+        border: 2px solid #D0D0D0;
+    }
+    
+    .inputBoxes {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    
+    .proceedButton button{
+        background-color: #00698F;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+    
+    .registering {
+        width: 100%;
+    }
+    
+    .registering p {
+        margin-bottom: -5%;
+        text-align: center;
+    }
+    
+    .tellUs {
+        width: 100%;
+    }
+    
+    .tellUs p {
+        margin-bottom: -10%;
+        text-align: center;
+    }
+}

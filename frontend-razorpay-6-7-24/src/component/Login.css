@@ -1,0 +1,191 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.others {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+
+.whatsapp button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #F2F2F2;
+    border: none !important;
+    /* padding: 0 30px; */
+    width: 200px;
+    font-size: 20px;
+}
+
+.mobile button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 43px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #F2F2F2;
+    border: none !important;
+    padding: 0 40px;
+}
+
+.google button {
+    border: none;
+    background-color: #fff;
+    font-family: 'roboto';
+}
+
+.facebook button {
+    border: none;
+    background-color: #fff;
+}
+
+.google p {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.facebook p {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.form-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    height: fit-content;
+    width: 75%;
+    padding: 1rem;
+}
+form input {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+
+.guest p {
+    color: #4E77FC;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.email-google-facebook {
+    display: flex;
+    gap: 30px;
+}
+
+.mobileNumber {
+    width: 100%;
+    text-align: center;
+}
+
+/* .mobileNumber input {
+    height: 40%;
+    width: 20%;
+    border-radius: 9px;
+    border: 2px solid #D0D0D0;
+} */
+
+.whatsappIcon {
+    width: 45px;
+    height: auto;
+}
+
+.otherLoginIcon {
+    width: 45px;
+    height: auto;
+}
+
+.registerToLogin p{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: -20%;
+    /* margin-left: -10%; */
+}
+
+.or {
+    display: flex;
+    align-items: center ;
+}
+
+.or p {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #636D77;
+}
+
+hr {
+    width: 100px;
+    color: lightgray;
+    height: 0px;
+}
+
+.email , .google , .facebook {
+    background-color: #F1EEEE;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.terms p {
+    color: #636D77;
+}
+
+.terms p a {
+    text-decoration: none;
+    color: #4E77FC;
+}
+
+.viaText {
+    color: #636D77;
+}
+.continue button {
+    background-color: #4E77FC;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: Roboto, Arial;
+}
+.native-phone-input {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    /* padding-left: 48px; */
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+    width: 300px;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+}
